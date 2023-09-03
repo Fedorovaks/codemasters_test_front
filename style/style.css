@@ -133,7 +133,7 @@ span a {
     font-weight: 400;
     /* Браузер сначала попробует найти шрифт локально */
     src: local("Miama-Nueva"),
-         url("/fonts/Nueva/Miama-Nueva.woff") format("woff");
+         url("../fonts/Nueva/Miama-Nueva.woff") format("woff");
   }
   i {
     padding: 30px 0px;
