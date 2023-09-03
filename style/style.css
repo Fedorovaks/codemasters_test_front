@@ -1,0 +1,142 @@
+body {
+    background: url("/image/bg.png");
+    margin: 0;
+    
+    
+    
+}
+
+nav {
+    background-color: WhiteSmoke;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0px 5px 15px black;
+
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    margin: 5px 35px;
+}
+
+li a { 
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: sans-serif;
+    color: black;
+}
+
+a:hover {
+color:slategray;
+}
+
+main {
+    display: flex;
+    width:70%;
+    flex-direction: column;
+    margin: auto;
+    background-color: WhiteSmoke;
+    border-left: 25px double silver;
+    border-right:25px double silver;
+    box-shadow: 5px 5px 5px black,-5px 5px 5px black;
+    
+}
+
+h1 {
+    font-family: "Miama-Nueva";
+    padding-bottom: 30px;
+}
+h2 {
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+
+strong {
+    font-family: sans-serif;
+}
+
+img {
+width: 200px;
+}
+
+.about-me p {
+    font-family: 'Miama-Nueva';
+}
+
+.info-blok {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 5em;
+    margin-bottom: 1.5em; 
+   
+}
+
+.education-blok,
+.experience-blok,
+.programming-blok,
+.course-blok {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em; 
+}
+
+.education,
+.experience,
+.programming,
+.course {
+    width: 60%;
+    margin-right: 50px;
+    font-family: "Miama-Nueva";
+    line-height: 1.5;
+}
+
+.post-scriptum {
+padding-top:10px;
+}
+
+footer{
+    display: block;
+    width:70%;
+    flex-direction: column;
+    margin: auto;
+    background-color: WhiteSmoke;
+    border-left: 25px double silver;
+    border-right:25px double silver;
+    border-bottom:25px double silver;
+    box-shadow: 5px 5px 5px black,-5px 5px 5px black;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+span {
+    padding-right: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+span a {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: "Miama-Nueva";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Miama-Nueva"),
+         url("/fonts/Nueva/Miama-Nueva.woff") format("woff");
+  }
+  i {
+    padding: 30px 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
